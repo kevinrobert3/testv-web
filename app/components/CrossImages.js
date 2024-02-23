@@ -31,7 +31,7 @@ function CrossImageOne({ nav, images }) {
 
         {/* return ( */}
         <div className="flex flex-col   w-48 cursor-pointer rounded-md ">
-          <div className=" w-full h-40 bg-green-200 rounded-md relative">
+          <div className=" w-full h-40 bg-slate-200 rounded-md relative">
             {/* <span>Image</span> */}
             <Image
               src={images[0].items[0].publication.media[0].uri}

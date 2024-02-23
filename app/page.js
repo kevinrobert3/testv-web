@@ -64,7 +64,7 @@ export default async function Home({}) {
       </nav>
       <main className=" flex flex-col space-y-16 ">
         <MainSlider images={images[0]} />
-        <div className=" flex flex-row space-x-10  px-5 lg:px-60 h-32">
+        <div className=" flex flex-row space-x-10  px-5 lg:px-60 h-32 overflow-x-auto snap-x">
           {images[1].map((el, index) => {
             return (
               <div
