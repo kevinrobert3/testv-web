@@ -62,7 +62,7 @@ export default async function Home({}) {
           <span className=" lg:flex hidden pl-2">Discount</span>
         </div>
       </nav>
-      <main className=" flex flex-col space-y-16 ">
+      <main className=" flex flex-col space-y-12 lg:space-y-16 ">
         <MainSlider images={images[0]} />
         <div className=" flex flex-row space-x-10  px-5 lg:px-60 h-32 overflow-x-auto snap-x">
           {images[1].map((el, index) => {
