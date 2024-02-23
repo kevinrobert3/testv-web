@@ -39,16 +39,16 @@ export default async function Home({}) {
   return (
     <div>
       <nav className=" h-16 lg:h-20  flex items-center  px-4  lg:px-56 flex-row justify-between border border-gray-100 border-b border-t-0 border-r-0 border-l-0">
-        <div className=" text-primary flex flex-row items-center space-x-4">
-          <span className=" text-primary font-semibold text-xl">
+        <div className=" text-primary flex flex-row items-center space-x-1 lg:space-x-4">
+          <span className=" text-primary font-semibold text-base lg:text-xl">
             TestValley
           </span>
           <div className=" flex flex-row space-x-1 items-center">
             <AiOutlineMenu className=" cursor-pointer h-4 w-4" />
-            <span className=" text-sm">Menu</span>
+            <span className=" lg:flex hidden text-sm">Menu</span>
           </div>
         </div>
-        <div className="  w-72  ">
+        <div className=" w-full  lg:w-72 lg:mx-0 mx-4  ">
           <div className=" flex  flex-row border border-gray-200 items-center px-4  rounded-md">
             <FaSearch className=" text-gray-500" />
             <input
@@ -59,7 +59,7 @@ export default async function Home({}) {
         </div>
         <div className=" flex flex-row space-x-2 divide-x">
           <CiDiscount1 className=" h-6 w-6 " />
-          <span className="  pl-2">Discount</span>
+          <span className=" lg:flex hidden pl-2">Discount</span>
         </div>
       </nav>
       <main className=" flex flex-col space-y-16 ">
